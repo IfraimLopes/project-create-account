@@ -1,0 +1,81 @@
+@media screen and (max-width: 600px) {
+  .contaner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #img0 {
+    width: 269px;
+    height: 178px;
+    border-radius: 10px;
+    padding-top: 50px;
+  }
+
+  input[type="text"] {
+    width: 110px;
+  }
+
+  input[type="email"] {
+    width: 280px;
+  }
+
+  input[type="password"] {
+    width: 280px;
+  }
+
+  input[type="button"] {
+    width: 280px;
+  }
+
+  #tema {
+    font-size: 11px;
+  }
+
+  .check p {
+    font-size: 10px;
+  }
+
+  .check a {
+    font-size: 9px;
+  }
+
+  .contaner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #2b2738;
+    height: 90vh;
+    width: 79vw;
+    border-radius: 10px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 20px;
+  }
+
+  .create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding-top: 10px;
+  }
+
+  .dentro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .dentro1 p {
+    font-size: 12px;
+  }
+
+  .dentro2 a {
+    font-size: 12px;
+  }
+}

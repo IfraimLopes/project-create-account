@@ -1,0 +1,194 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Corpo "Body"*/
+body {
+  background-color: #676279;
+}
+
+/*IMAGENS MEDIDAS TODAS ELAS*/
+#img0 {
+  width: 500px;
+  height: 379px;
+  border-radius: 10px;
+}
+
+#img2 {
+  width: 20px;
+  height: 20px;
+}
+
+#apple {
+  width: 20px;
+  height: 40px;
+}
+
+/*-----------------------------*/
+
+/*Div Mãe*/
+.contaner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #2b2738;
+  height: 84vh;
+  width: 74vw;
+  border-radius: 10px;
+}
+
+/*Div do Create Account*/
+.create {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 15px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.582);
+}
+
+.dentro {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  font-size: 10px;
+}
+
+.apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  padding: 2px;
+  width: 120px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.google {
+  display: flex;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  width: 120px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: none;
+}
+
+input {
+  margin: 5px;
+}
+
+.principio {
+  display: flex;
+  flex-direction: row;
+}
+
+.principio input {
+  border: none;
+  outline: none;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #3b364c;
+}
+
+input::placeholder {
+  padding: 20px;
+}
+
+input {
+  color: white;
+  text-align: center;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-color: skyblue;
+}
+
+input[type="email"] {
+  width: 343px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #3b364c;
+  border: none;
+  outline: none;
+}
+
+input[type="email"]:hover {
+  border: 1px solid rgb(13, 110, 255);
+}
+
+input[type="password"]:hover {
+  border: 1px solid rgb(13, 110, 255);
+}
+
+input[type="text"]:hover {
+  border: 1px solid rgb(13, 110, 255);
+}
+
+input[type="password"] {
+  width: 343px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #3b364c;
+  border: none;
+  outline: none;
+}
+
+input[type="button"] {
+  height: 30px;
+  background-color: #6e54b5;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+a {
+  color: #6c608c;
+}
+
+#tema {
+  text-align: center;
+  font-size: 12px;
+}
+
+.redes a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  color: #a09fa8;
+}
