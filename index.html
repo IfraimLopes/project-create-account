@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--Link do CSS de Animation-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <!--Link do CSS-->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
@@ -12,10 +18,15 @@
   <body>
     <main class="contaner">
       <div class="img">
-        <img src="img/pexels-ezz7-1738536.jpg" id="img0" alt="img" />
+        <img
+          src="img/pexels-ezz7-1738536.jpg"
+          class="animate__animated animate__backInLeft"
+          id="img0"
+          alt="img"
+        />
       </div>
       <div class="create">
-        <div class="one">
+        <div class="one animate__animated animate__backInRight">
           <div class="dentro0">
             <h1>Create an Account</h1>
           </div>
@@ -29,7 +40,7 @@
           </div>
         </div>
 
-        <div class="principio">
+        <div class="principio animate__animated animate__bounceInDown">
           <div class="name">
             <label for="Nome">Nome</label>
             <input type="text" name="nome" id="nome" placeholder="Nome" />
@@ -75,14 +86,14 @@
         </h1>
 
         <div class="redes">
-          <div class="google">
+          <div class="google animate__animated animate__flip">
             <div class="img2">
               <img src="img/Google_Icons-09-512.webp" id="img2" alt="google" />
             </div>
             <div class="g"><a href="#">Google</a></div>
           </div>
 
-          <div class="apple">
+          <div class="apple animate__animated animate__flip">
             <div class="img3">
               <img src="img/logo_apple.svg" id="apple" alt="apple" />
             </div>

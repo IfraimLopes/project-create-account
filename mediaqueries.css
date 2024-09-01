@@ -4,6 +4,10 @@
     flex-direction: column;
   }
 
+  body {
+    overflow: hidden;
+  }
+
   #img0 {
     width: 269px;
     height: 178px;

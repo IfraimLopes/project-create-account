@@ -8,6 +8,7 @@
 /*Corpo "Body"*/
 body {
   background-color: #676279;
+  overflow: hidden;
 }
 
 /*IMAGENS MEDIDAS TODAS ELAS*/
